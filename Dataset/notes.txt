@@ -1,0 +1,27 @@
+1. Patients table
+	Columns: patient_id ,first_name, last_name, gender,
+		 date_of_birth, contact_number, address, registration_date, 
+		 insurance_provider, insurance_number, email
+
+	Primary Key:patient_id
+
+2. Doctors table
+	Columns: doctor_id, first_name, last_name, specialization, phone_number, years_experience,
+		 hospital_branch, email
+
+	Primary Key:doctor_id
+
+3. Appointments table
+	Columns:appointment_id, patient_id, doctor_id, appointment_date, appointment_time, reason_for_visit, status
+
+        Foreign Keys:doctor_id, patient_id
+
+4. Billing table
+	Columns: bill_id, patient_id, treatment_id, bill_date, amount, payment_method, payment_status
+
+	Foreign Keys:patient_id
+
+5. Treatments table
+	Columns:treatment_id, appointment_id, treatment_type, description, cost, treatment_date,
+
+	Primary Key:treatment_id
