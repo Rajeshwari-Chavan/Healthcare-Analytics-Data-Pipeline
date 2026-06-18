@@ -24,7 +24,7 @@ After importing the cleaned data into Power BI, I established a robust data mode
 
 1. **Clinical & Operations Overview:** Tracks general patient load, top-demanding medical departments, and appointment statuses (Completed, Scheduled, No-shows).
 2. **Financial & Insurance Performance:** Displays total revenue, average bill sizing, payment channels (using a Treemap visual), and the revenue contribution of top insurance providers like MedCare Plus.
-3. **Staff & Department Performance:** To avoid repetitive layouts, I used a **Funnel Chart** to instantly rank doctors by their exact workload (Total Appointments). It also breaks down treatment revenue split by medical specialization.
+
 * *Folder Location:* `/PowerBI-Dashboard/`
 
 ---
