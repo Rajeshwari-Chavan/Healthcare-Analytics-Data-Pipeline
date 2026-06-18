@@ -19,7 +19,7 @@ Since raw healthcare data often contains missing values and inconsistent formatt
 * **What I did:** Using the `pandas` library, I handled missing fields, standardized data types, and cleaned up whitespace or duplicate issues in doctor names to prevent data clustering errors during analysis.
 * *Folder Location:* `/Data-Cleaning-Python/`
 
-### 📊 Stage 3: Data Modeling & 3-Page Dashboard (Power BI)
+### 📊 Stage 3: Data Modeling (Power BI)
 After importing the cleaned data into Power BI, I established a robust data model between the tables and wrote 100% explicit DAX measures (avoiding default implicit columns). I broke the dashboard down into three strategic pages:
 
 1. **Clinical & Operations Overview:** Tracks general patient load, top-demanding medical departments, and appointment statuses (Completed, Scheduled, No-shows).
